@@ -4,7 +4,7 @@ const {
     authToken,
     phoneNumber,
     twilioPhoneNumber
-} = require('../config/config');
+} = require('./config/config');
 
 
 const client = new twilio(accountSID, authToken);
