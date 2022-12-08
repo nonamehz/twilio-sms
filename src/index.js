@@ -4,7 +4,7 @@ const createSMS = require('./sms');
 
 console.log('Inició');
 
-cron.schedule("47 18 * * *", function () {
+cron.schedule("50 16 * * *", function () {
     createSMS('Marcar Asistencia 💀');
 });
 
